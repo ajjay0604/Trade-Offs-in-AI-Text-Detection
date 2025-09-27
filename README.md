@@ -34,12 +34,17 @@ These results demonstrate that hyper-efficient models are a mature and viable so
 
 The table below summarizes the performance and efficiency metrics of the evaluated models for AI-text detection. It highlights the trade-offs between accuracy, inference speed, and model size.
 
+<div style="text-align: center;">
+
 | Model      | Accuracy | F1-Score | Inference Time (ms) | Model Size (MB) |
 |------------|----------|----------|-------------------|----------------|
 | Baseline   | 0.9913   | 0.9900   | **1.50**          | **5.00**       |
 | TinyBERT   | 0.9936   | 0.9936   | 2.07              | 17.64          |
 | DistilBERT | 0.9959   | 0.9959   | 4.88              | 256.33         |
 | ALBERT     | **0.9979** | **0.9979** | 9.91              | 47.48          |
+
+</div>
+
 
 > **Note:** Bold values indicate the best performance for each metric.
 > 
