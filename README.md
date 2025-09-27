@@ -45,6 +45,7 @@ The table below summarizes the performance and efficiency metrics of the evaluat
 
 </div>
 
+From the models tested, out of all, the TinyBERT model was the best balanced model with an F1-score of 0.9936, only a small drop from the highest scoring model, while being substantially smaller and faster than ALBERT. These findings make TinyBERT a prime candidate to conduct scalable AI text detection whilst offering useful methodological pathways for future research.
 
 > **Note:** Bold values indicate the best performance for each metric.
 > 
