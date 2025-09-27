@@ -7,8 +7,11 @@
 
 [cite_start]This repository contains the code and resources for the paper **"Trade-Offs in AI-Text Detection: A Comparative Study of DistilBERT, ALBERT, and TinyBERT."** The study investigates the balance between classification performance and computational efficiency for detecting AI-generated text using lightweight transformer models[cite: 639].
 
-![Performance vs Efficiency Graph](assets/performance_graph.png)
+Performance vs Efficiency Graph :
 
+<p align="center">
+<img width="1278" height="726" alt="Screenshot 2025-09-27 at 4 23 56 PM" src="https://github.com/user-attachments/assets/e105c72d-2f8f-4a6e-891c-b38eedf46772" />
+</p>  
 
 ## 🏆 Key Finding
 
