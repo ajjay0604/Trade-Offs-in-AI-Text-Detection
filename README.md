@@ -12,7 +12,7 @@ The rapid evolution of Large Language Models (LLMs) has made their output nearly
 
 This research has been documented and accepted for publication in the proceedings of a peer-reviewed conference, highlighting its contribution to the field of AI text detection.
 
-This project provides a systematic, comparative study that focuses on the optimal balance between performance and practicality. We fine-tuned and benchmarked three lightweight models—**DistilBERT, ALBERT, and TinyBERT**—against a traditional TF-IDF baseline to guide the development of efficient and deployable AI detection systems.
+This project provides a systematic, comparative study that focuses on the optimal balance between performance and practicality. We fine-tuned and benchmarked three lightweight models: **DistilBERT, ALBERT, and TinyBERT** against a traditional TF-IDF baseline to guide the development of efficient and deployable AI detection systems.
 
 ## 📊 Performance vs Efficiency Graph :
 
