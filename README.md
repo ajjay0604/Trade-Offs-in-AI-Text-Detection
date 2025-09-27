@@ -10,10 +10,11 @@
 
 The rapid evolution of Large Language Models (LLMs) has made their output nearly indistinguishable from human prose, creating significant challenges for academic integrity and the spread of misinformation. While many detection methods rely on large, resource-intensive models, this approach is often impractical for real-world applications.
 
+This research has been documented and accepted for publication in the proceedings of a peer-reviewed conference, highlighting its contribution to the field of AI text detection.
+
 This project provides a systematic, comparative study that focuses on the optimal balance between performance and practicality. We fine-tuned and benchmarked three lightweight models—**DistilBERT, ALBERT, and TinyBERT**—against a traditional TF-IDF baseline to guide the development of efficient and deployable AI detection systems.
 
-
-Performance vs Efficiency Graph :
+## 📊 Performance vs Efficiency Graph :
 
 <p align="center">
 <img width="1278" height="726" alt="Screenshot 2025-09-27 at 4 23 56 PM" src="https://github.com/user-attachments/assets/e105c72d-2f8f-4a6e-891c-b38eedf46772" />
