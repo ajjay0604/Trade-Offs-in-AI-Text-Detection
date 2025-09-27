@@ -5,7 +5,13 @@
 [![Hugging Face Transformers](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Transformers-orange)](https://huggingface.co/transformers)
 [![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?&logo=PyTorch&logoColor=white)](https://pytorch.org/)
 
-[cite_start]This repository contains the code and resources for the paper **"Trade-Offs in AI-Text Detection: A Comparative Study of DistilBERT, ALBERT, and TinyBERT."** The study investigates the balance between classification performance and computational efficiency for detecting AI-generated text using lightweight transformer models[cite: 639].
+
+## 📖 About The Project
+
+The rapid evolution of Large Language Models (LLMs) has made their output nearly indistinguishable from human prose, creating significant challenges for academic integrity and the spread of misinformation. While many detection methods rely on large, resource-intensive models, this approach is often impractical for real-world applications.
+
+This project provides a systematic, comparative study that focuses on the optimal balance between performance and practicality. We fine-tuned and benchmarked three lightweight models—**DistilBERT, ALBERT, and TinyBERT**—against a traditional TF-IDF baseline to guide the development of efficient and deployable AI detection systems.
+
 
 Performance vs Efficiency Graph :
 
