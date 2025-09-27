@@ -13,13 +13,15 @@ Performance vs Efficiency Graph :
 <img width="1278" height="726" alt="Screenshot 2025-09-27 at 4 23 56 PM" src="https://github.com/user-attachments/assets/e105c72d-2f8f-4a6e-891c-b38eedf46772" />
 </p>  
 
-## 🏆 Key Finding
+## 🏆 Key Findings
 
-[cite_start]The core finding of this research is that for AI-text detection, the most efficient models can achieve performance nearly identical to larger, slower models[cite: 652].
+The study reveals that the most efficient models can achieve performance nearly identical to larger, slower models.  
+**TinyBERT** offers the most optimal balance:  
+- Achieves a near-perfect **F1-Score of 0.9936**  
+- Over **4.7x faster** than ALBERT  
+- Nearly **3x smaller** than ALBERT  
 
-> **TinyBERT** offers the most optimal balance. [cite_start]It achieves a near-perfect **F1-Score of 0.9936** while being over **4.7 times faster** and nearly **3 times smaller** than the top-performing ALBERT model[cite: 596].
-
-[cite_start]This result provides strong evidence that hyper-efficient models are a mature and viable solution for scalable, real-world AI detection systems[cite: 597].
+These results demonstrate that hyper-efficient models are a mature and viable solution for scalable, real-world AI detection.
 
 
 
