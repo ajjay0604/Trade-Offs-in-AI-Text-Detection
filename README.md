@@ -30,6 +30,20 @@ The study reveals that the most efficient models can achieve performance nearly 
 
 These results demonstrate that hyper-efficient models are a mature and viable solution for scalable, real-world AI detection.
 
+## 📊 Results
+
+The table below summarizes the performance and efficiency metrics of the evaluated models for AI-text detection. It highlights the trade-offs between accuracy, inference speed, and model size.
+
+| Model      | Accuracy | F1-Score | Inference Time (ms) | Model Size (MB) |
+|------------|----------|----------|-------------------|----------------|
+| Baseline   | 0.9913   | 0.9900   | **1.50**          | **5.00**       |
+| TinyBERT   | 0.9936   | 0.9936   | 2.07              | 17.64          |
+| DistilBERT | 0.9959   | 0.9959   | 4.88              | 256.33         |
+| ALBERT     | **0.9979** | **0.9979** | 9.91              | 47.48          |
+
+> **Note:** Bold values indicate the best performance for each metric.
+> 
+
 ## 🚀 Getting Started
 
 Follow these instructions to set up the project locally and reproduce our results.
@@ -71,17 +85,6 @@ The dataset used for this project is the **[DAIGT V2 Train Dataset](https://www.
     ```sh
     kaggle datasets download -d thedrcat/daigt-v2-train-dataset -p data/ --unzip
     ```
-
-## 📈 Reproducing the Results
-
-To run the experiments, simply open and execute the cells in the `notebooks/main_experiment.ipynb` notebook.
-
-The notebook is designed to:
-1.  [cite_start]Load and preprocess the dataset from the `/data` folder[cite: 755].
-2.  [cite_start]Train and evaluate the TF-IDF + Logistic Regression baseline model[cite: 768].
-3.  [cite_start]Systematically fine-tune, evaluate, and measure the efficiency (inference time and model size) of DistilBERT, ALBERT, and TinyBERT[cite: 793].
-4.  [cite_start]Generate the final comparison table and visualizations seen in the paper[cite: 854].
-
 
 
 ## 📂 Repository Structure
