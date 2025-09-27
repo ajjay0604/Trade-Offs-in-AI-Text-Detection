@@ -9,9 +9,8 @@
 
 ![Performance vs Efficiency Graph](assets/performance_graph.png)
 
----
 
-## ## 🏆 Key Finding
+## 🏆 Key Finding
 
 [cite_start]The core finding of this research is that for AI-text detection, the most efficient models can achieve performance nearly identical to larger, slower models[cite: 652].
 
@@ -19,26 +18,25 @@
 
 [cite_start]This result provides strong evidence that hyper-efficient models are a mature and viable solution for scalable, real-world AI detection systems[cite: 597].
 
----
 
-## ## 📖 About The Project
+
+## 📖 About The Project
 
 [cite_start]The rapid evolution of Large Language Models (LLMs) has made their output nearly indistinguishable from human prose, creating significant challenges for academic integrity and the spread of misinformation[cite: 645, 646, 647]. [cite_start]While many detection methods rely on large, resource-intensive models, this approach is often impractical for real-world applications[cite: 648].
 
 [cite_start]This project provides a systematic, comparative study that shifts the focus from maximizing accuracy at all costs to finding an optimal balance between performance and practicality[cite: 679]. [cite_start]We fine-tuned and benchmarked three prominent lightweight models—**DistilBERT, ALBERT, and TinyBERT**—against a traditional TF-IDF baseline to provide a clear guide for developing efficient and deployable AI detection systems[cite: 649, 650, 654].
 
----
 
-## ## 🚀 Getting Started
+## 🚀 Getting Started
 
 Follow these instructions to set up the project locally and reproduce our results.
 
-### ### 1. Prerequisites
+### 1. Prerequisites
 
 * Python 3.9 or later
 * Git and Git LFS (for handling datasets, if needed)
 
-### ### 2. Installation
+### 2. Installation
 
 1.  **Clone the repository:**
     ```sh
@@ -55,16 +53,23 @@ Follow these instructions to set up the project locally and reproduce our result
     pip install -r requirements.txt
     ```
 
-### ### 3. Dataset Setup
+### 3. Dataset Setup
 
-[cite_start]The dataset used is the **DAIGT V2 Train Dataset** from Kaggle[cite: 742, 969].
+The dataset used for this project is the **[DAIGT V2 Train Dataset](https://www.kaggle.com/datasets/thedrcat/daigt-v2-train-dataset)** from Kaggle.
 
-1.  Download the dataset from the [Kaggle dataset page](https://www.kaggle.com/datasets/thedrcat/daigt-v2-train-dataset).
-2.  Place the `.csv` file inside the `/data` directory in this project.
+### ### Option 1: Manual Download
+1.  Visit the [Kaggle dataset page](https://www.kaggle.com/datasets/thedrcat/daigt-v2-train-dataset).
+2.  Download the files.
+3.  Place the `train_v2_drcat_02.csv` file inside the `/data` directory in this project.
 
----
+### ### Option 2: Kaggle API (Recommended)
+1.  Install the Kaggle API: `pip install kaggle`
+2.  Run the following command to download and place the dataset automatically:
+    ```sh
+    kaggle datasets download -d thedrcat/daigt-v2-train-dataset -p data/ --unzip
+    ```
 
-## ## 📈 Reproducing the Results
+## 📈 Reproducing the Results
 
 To run the experiments, simply open and execute the cells in the `notebooks/main_experiment.ipynb` notebook.
 
@@ -74,9 +79,9 @@ The notebook is designed to:
 3.  [cite_start]Systematically fine-tune, evaluate, and measure the efficiency (inference time and model size) of DistilBERT, ALBERT, and TinyBERT[cite: 793].
 4.  [cite_start]Generate the final comparison table and visualizations seen in the paper[cite: 854].
 
----
 
-## ## 📂 Repository Structure
+
+## 📂 Repository Structure
 
 ```
 ├── data/
@@ -91,24 +96,6 @@ The notebook is designed to:
 └── requirements.txt
 ```
 
----
-
-## ## 📄 Citation
-
-If you use this code or our findings in your own research, please cite the original paper:
-
-```bibtex
-@inproceedings{adhithya2025tradeoffs,
-  title={Trade-Offs in AI-Text Detection: A Comparative Study of DistilBERT, ALBERT, and TinyBERT},
-  author={Ajjay Adhithya V and Garav Malik and Sahaya Beni Prathiba and Dhanalakshmi Ranganayakulu},
-  booktitle={},
-  year={2025},
-  pages={},
-  organization={}
-}
-```
-
----
 
 ## ## 📜 License
 
