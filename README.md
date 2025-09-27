@@ -30,15 +30,6 @@ The study reveals that the most efficient models can achieve performance nearly 
 
 These results demonstrate that hyper-efficient models are a mature and viable solution for scalable, real-world AI detection.
 
-
-
-## 📖 About The Project
-
-[cite_start]The rapid evolution of Large Language Models (LLMs) has made their output nearly indistinguishable from human prose, creating significant challenges for academic integrity and the spread of misinformation[cite: 645, 646, 647]. [cite_start]While many detection methods rely on large, resource-intensive models, this approach is often impractical for real-world applications[cite: 648].
-
-[cite_start]This project provides a systematic, comparative study that shifts the focus from maximizing accuracy at all costs to finding an optimal balance between performance and practicality[cite: 679]. [cite_start]We fine-tuned and benchmarked three prominent lightweight models—**DistilBERT, ALBERT, and TinyBERT**—against a traditional TF-IDF baseline to provide a clear guide for developing efficient and deployable AI detection systems[cite: 649, 650, 654].
-
-
 ## 🚀 Getting Started
 
 Follow these instructions to set up the project locally and reproduce our results.
