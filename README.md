@@ -14,6 +14,22 @@ This research has been documented and accepted for publication in the proceeding
 
 This project provides a systematic, comparative study that focuses on the optimal balance between performance and practicality. We fine-tuned and benchmarked three lightweight models: **DistilBERT, ALBERT, and TinyBERT** against a traditional TF-IDF baseline to guide the development of efficient and deployable AI detection systems.
 
+## 📄 Dataset Setup
+
+The dataset used for this project is the **[DAIGT V2 Train Dataset](https://www.kaggle.com/datasets/thedrcat/daigt-v2-train-dataset)** from Kaggle.
+
+### Option 1: Manual Download
+1.  Visit the [Kaggle dataset page](https://www.kaggle.com/datasets/thedrcat/daigt-v2-train-dataset).
+2.  Download the files.
+3.  Place the `train_v2_drcat_02.csv` file inside the `/data` directory in this project.
+
+### Option 2: Kaggle API (Recommended)
+1.  Install the Kaggle API: `pip install kaggle`
+2.  Run the following command to download and place the dataset automatically:
+    ```sh
+    kaggle datasets download -d thedrcat/daigt-v2-train-dataset -p data/ --unzip
+    ```
+
 ## 📊 Performance vs Efficiency Graph :
 
 <p align="center">
@@ -76,24 +92,7 @@ Follow these instructions to set up the project locally and reproduce our result
     ```sh
     pip install -r requirements.txt
     ```
-
-### 3. Dataset Setup
-
-The dataset used for this project is the **[DAIGT V2 Train Dataset](https://www.kaggle.com/datasets/thedrcat/daigt-v2-train-dataset)** from Kaggle.
-
-### ### Option 1: Manual Download
-1.  Visit the [Kaggle dataset page](https://www.kaggle.com/datasets/thedrcat/daigt-v2-train-dataset).
-2.  Download the files.
-3.  Place the `train_v2_drcat_02.csv` file inside the `/data` directory in this project.
-
-### ### Option 2: Kaggle API (Recommended)
-1.  Install the Kaggle API: `pip install kaggle`
-2.  Run the following command to download and place the dataset automatically:
-    ```sh
-    kaggle datasets download -d thedrcat/daigt-v2-train-dataset -p data/ --unzip
-    ```
-
-
+    
 ## 📂 Repository Structure
 
 ```
