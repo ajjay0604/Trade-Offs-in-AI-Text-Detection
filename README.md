@@ -116,8 +116,7 @@ Follow these instructions to set up the project locally and reproduce our result
 └── requirements.txt
 ```
 
-
-## ## 📜 License
+## 📜 License
 
 This project is distributed under the MIT License. See the `LICENSE` file for more information.
 
