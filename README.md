@@ -96,12 +96,20 @@ The dataset used for this project is the **[DAIGT V2 Train Dataset](https://www.
 ## 📂 Repository Structure
 
 ```
-├── data/
-│   └── README.md         # Placeholder for dataset
-├── notebooks/
-│   └── main_experiment.ipynb # Main notebook for all experiments
-├── assets/
-│   └── performance_graph.png # Your results graph image
+├── colab_notebooks/
+│   ├── albert_base_v2.ipynb
+│   ├── distilbert_base_uncased.ipynb
+│   └── prajjwal1_bert_tiny.ipynb
+│
+├── notebooks_pdf/
+│   ├── albert_base_v2.pdf
+│   ├── distilbert_base_uncased.pdf
+│   └── prajjwal1_bert_tiny.pdf
+│
+├── results/
+│   ├── performance_efficiency_comparison.png
+│   └── performance_vs_efficiency.pdf
+│
 ├── .gitignore
 ├── LICENSE
 ├── README.md
