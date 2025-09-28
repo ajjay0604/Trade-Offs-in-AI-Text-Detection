@@ -23,6 +23,7 @@ This project provides a systematic, comparative study that focuses on the optima
 ## 🏆 Key Findings
 
 The study reveals that the most efficient models can achieve performance nearly identical to larger, slower models.  
+
 **TinyBERT** offers the most optimal balance:  
 - Achieves a near-perfect **F1-Score of 0.9936**  
 - Over **4.7x faster** than ALBERT  
