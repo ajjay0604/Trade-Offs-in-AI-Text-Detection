@@ -110,15 +110,9 @@ Follow these instructions to set up the project locally and reproduce our result
 │   ├── performance_efficiency_comparison.png
 │   └── performance_vs_efficiency.pdf
 │
-├── .gitignore
-├── LICENSE
 ├── README.md
 └── requirements.txt
 ```
-
-## 📜 License
-
-This project is distributed under the MIT License. See the `LICENSE` file for more information.
 
 ----
 <i>📌 Developed by <b>Ajjay Adhithya V</b> · 🔗 More projects on my <a href="https://github.com/ajjay0604/">GitHub Profile</a></i>
